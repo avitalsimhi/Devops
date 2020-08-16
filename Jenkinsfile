@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         stage('Hello') {
-            steps {
+            steps { 
                 git 'https://github.com/avitalsimhi/Devops.git'
             }
         }
